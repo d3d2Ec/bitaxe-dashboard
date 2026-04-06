@@ -530,7 +530,7 @@ export default function App() {
               return (
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 14, animation: "fadeUp 0.5s ease 0.2s both" }}>
                   <div style={{
-                    background: "#0d1117", border: "1px solid #3fb95033",
+                    border: "1px solid #3fb95033",
                     borderRadius: 14, padding: "22px 24px",
                     background: "linear-gradient(135deg, #0d1117, #3fb95008)",
                   }}>
@@ -547,7 +547,7 @@ export default function App() {
                     </div>
                   </div>
                   <div style={{
-                    background: "#0d1117", border: "1px solid #bc8cff33",
+                    border: "1px solid #bc8cff33",
                     borderRadius: 14, padding: "22px 24px",
                     background: "linear-gradient(135deg, #0d1117, #bc8cff08)",
                     opacity: newMembers.length > 0 ? 1 : 0.4,
